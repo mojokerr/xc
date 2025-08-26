@@ -18,9 +18,35 @@ const cairo = Cairo({
 })
 
 export const metadata: Metadata = {
-  title: "Chat2Site - منصة إنشاء المواقع بالذكاء الاصطناعي",
-  description: "منصة مبتكرة لإنشاء المواقع بسهولة من خلال محادثة تفاعلية مع الذكاء الاصطناعي",
+  title: "Chat2Site - أنشئ موقعك الإلكتروني في دقائق بالذكاء الاصطناعي",
+  description: "منصة Chat2Site تستخدم الذكاء الاصطناعي لتحويل أفكارك إلى مواقع ويب احترافية من خلال محادثة بسيطة. بدون برمجة، بدون تعقيد. ابدأ مجاناً الآن!",
   generator: "Chat2Site",
+  keywords: "إنشاء مواقع، ذكاء اصطناعي، بدون برمجة، مواقع احترافية، Chat2Site، AI website builder",
+  authors: [{ name: "Chat2Site Team" }],
+  creator: "Chat2Site",
+  publisher: "Chat2Site",
+  robots: "index, follow",
+  openGraph: {
+    type: "website",
+    locale: "ar_SA",
+    url: "https://chat2site.com",
+    title: "Chat2Site - أنشئ موقعك الإلكتروني في دقائق بالذكاء الاصطناعي",
+    description: "منصة Chat2Site تستخدم الذكاء الاصطناعي لتحويل أفكارك إلى مواقع ويب احترافية من خلال محادثة بسيطة. بدون برمجة، بدون تعقيد.",
+    siteName: "Chat2Site",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Chat2Site - أنشئ موقعك الإلكتروني في دقائق بالذكاء الاصطناعي",
+    description: "منصة Chat2Site تستخدم الذكاء الاصطناعي لتحويل أفكارك إلى مواقع ويب احترافية من خلال محادثة بسيطة.",
+    creator: "@chat2site",
+  },
+  alternates: {
+    canonical: "https://chat2site.com",
+    languages: {
+      "ar-SA": "https://chat2site.com/ar",
+      "en-US": "https://chat2site.com/en",
+    },
+  },
 }
 
 export default function RootLayout({
